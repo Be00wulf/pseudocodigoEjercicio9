@@ -1,0 +1,22 @@
+Algoritmo ejercicio9
+	
+	
+	Hacer
+		Mostrar "Ingresar temperatura 1"
+		Leer temperatura1
+		
+		Mostrar "Ingresar temperatura 2"
+		Leer temperatura2
+		
+		si temperatura1 >= 5 y temperatura1 <= 15 Entonces
+			si temperatura2 >= 5 y temperatura2 <= 15 Entonces
+			promedio = (temperatura1 + temperatura2)/2
+			Mostrar "el promedio es de ",promedio
+		SiNo
+			Mostrar "OK"
+			FinSi
+		FinSi
+		
+	Hasta Que temperatura1 = 0
+	
+FinAlgoritmo
